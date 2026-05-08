@@ -23,7 +23,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#EA1D2C"
       },
-      "package": "com.foodexpress.mobile"
+      "package": "com.foodexpress.mobile",
+      "googleServicesFile": "./google-services.json"
     },
     "plugins": [
       [

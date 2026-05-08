@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "733573357855",
+    "project_id": "ifood-clone-ap1",
+    "storage_bucket": "ifood-clone-ap1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733573357855:android:ca1ce41b195c6e25a1102a",
+        "android_client_info": {
+          "package_name": "com.foodexpress.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733573357855-9k7sqkgahpp33iir2sb25mql9qvqgsun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhRFUseVlALkakKjfsD1reDqOnRjhFaU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733573357855-9k7sqkgahpp33iir2sb25mql9qvqgsun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
