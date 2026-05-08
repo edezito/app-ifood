@@ -1,29 +1,45 @@
 {
   "expo": {
-    "name": "FoodExpress-Mobile",
-    "slug": "FoodExpress-Mobile",
+    "name": "FoodExpress",
+    "slug": "foodexpress-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#EA1D2C"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.foodexpress.mobile"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#EA1D2C"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.foodexpress.mobile"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#EA1D2C"
+        }
+      ]
+    ],
+    "extra": {
+      "supabaseUrl": "https://zusjxzywbcaezqqmoyfq.supabase.co",
+      "supabaseAnonKey": "sb_publishable_nhTVhyXWdVFiiJAH3S07Gw_R-JfYPBF",
+      "eas": {
+        "projectId": "ea301521-ec82-4f06-9a1e-022fb38a61f6"
+      }
     }
   }
 }
